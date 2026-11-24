@@ -2,7 +2,7 @@
 
 Upload a photo of one leaf and get the most likely disease, a calibrated confidence, and general next steps. LeafGuard is a fine-tuned ConvNeXt-Tiny classifier trained on six public datasets, with 109 crop/condition classes and about 120,000 photos. The web app runs on CPU with ONNX Runtime.
 
-**Live demo:** Not deployed yet. The Streamlit Community Cloud link will be added here after deployment. See [the deployment guide](docs/DEPLOYMENT.md).
+**Live demo:** [LeafGuard on Streamlit Community Cloud](https://leafguard-shuvooy.streamlit.app/) · [Deployment guide](docs/DEPLOYMENT.md).
 
 The project is built around one question: **do plant-disease models that look excellent on lab photos work on real field photos?** It measures that honestly instead of reporting only the flattering number.
 
