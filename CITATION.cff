@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LeafGuard: plant disease recognition from a leaf photo"
+type: software
+authors:
+  - family-names: "Shuvo"
+    given-names: "Sarnajit Paul"
+version: 1.0.0
+date-released: 2026-11-24
+license: MIT
+repository-code: "https://github.com/shuvooy/leafguard"
+keywords:
+  - plant disease
+  - image classification
+  - convnext
+  - domain shift
+  - calibration

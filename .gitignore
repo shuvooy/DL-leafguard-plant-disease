@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Model checkpoints and large model files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+!deploy/model_int8.onnx
+deploy/*.part
+
+# Datasets, generated training outputs, and local archives
+*.zip
+*.tar
+*.tar.gz
+leafguard_output/
+data/
+datasets/
+archive/
+archive (1)/
+archive (2)/
+cassava-leaf-disease-classification/
+PlantDoc-Dataset-master/
+plant-pathology-2021-fgvc8/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

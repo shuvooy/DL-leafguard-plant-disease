@@ -1,0 +1,15 @@
+# Full pipeline (prepare / train / evaluate / export). Install PyTorch with CUDA from pytorch.org first.
+torch>=2.5
+torchvision>=0.20
+timm>=1.0
+numpy
+pandas
+scikit-learn
+scipy
+pillow
+matplotlib
+pyyaml
+tqdm
+onnx
+onnxruntime
+streamlit>=1.35
